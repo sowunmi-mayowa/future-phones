@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,body{
+    scroll-behavior: smooth;
+}
+#overview{
+    background: url(../public/img/kari-shea-1SAnrIxw5OY-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+#overview .content{
+    background-color: rgba(0, 0, 0, 0.541);
+}
